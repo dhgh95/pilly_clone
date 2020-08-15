@@ -1,0 +1,32 @@
+.Products {
+  .first-section {
+    height: 590px;
+    background: url(https://img.pilly.kr/product/v20200103/common/cover.jpg)
+      no-repeat 50% 50%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    article {
+      width: 924px;
+
+      h2 {
+        color: white;
+        font-size: 36px;
+      }
+
+      img {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .second-section {
+    width: 924px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

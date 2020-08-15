@@ -1,0 +1,144 @@
+$default-font-color: #333;
+
+.Order {
+  display: flex;
+  justify-content: center;
+  color: $default-font-color;
+
+  .content-container {
+    width: 908px;
+    margin-top: 150px;
+
+    .header {
+      font-size: 28px;
+      font-weight: 400;
+      color: inherit;
+
+      .bold {
+        font-weight: 700;
+      }
+    }
+
+    .subheader {
+      margin-top: 100px;
+      padding-bottom: 24px;
+      font-size: 20px;
+      font-weight: 600;
+      color: inherit;
+      border-bottom: 2px solid $default-font-color;
+    }
+
+    .input-wrapper {
+      height: 86px;
+      margin: 20px 0px 40px 0px;
+
+      .label {
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-weight: 700;
+        color: #999;
+      }
+
+      input {
+        width: 100%;
+        height: 60px;
+        padding: 0 30px;
+        border: 1px solid #d7d7d7;
+        border-radius: 4px;
+        outline: none;
+        font-size: 20px;
+        cursor: text;
+
+        &::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+        }
+
+        &:read-only {
+          background-color: #fafafa;
+        }
+
+        &.valid {
+          border: 1px solid #50bf19;
+        }
+
+        &.inValid {
+          border: 1px solid #e36a19;
+        }
+      }
+
+      .warning-text {
+        font-size: 12px;
+        color: #e36a19;
+        padding: 3px 3px;
+        display: none;
+
+        &.inValid {
+          display: block;
+        }
+      }
+
+      &.with-button {
+        .inner-wrapper {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          input {
+            width: 720px;
+          }
+
+          button {
+            width: 158px;
+            height: 50px;
+            font-size: 15px;
+            font-weight: 700;
+            border-radius: 25px;
+            background-color: #333;
+            color: #fff;
+            outline: none;
+            border: none;
+            appearance: none;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    .daum-address {
+      width: 100%;
+      height: 500px;
+      border: 1px solid #dfdfdf;
+      display: none;
+    }
+
+    .order-button-box {
+      // width: 100%;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+
+      .order-button {
+        width: 520px;
+        height: 60px;
+        margin-top: 100px;
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 30px;
+        background-color: #e26d59;
+        color: white;
+        outline: none;
+        border: none;
+        appearance: none;
+        cursor: pointer;
+      }
+    }
+
+    .copy-right {
+      display: flex;
+      justify-content: center;
+      color: #848484;
+      font-size: 12px;
+      margin-bottom: 200px;
+    }
+  }
+}

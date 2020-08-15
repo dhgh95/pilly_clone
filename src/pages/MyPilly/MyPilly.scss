@@ -1,0 +1,24 @@
+.MyPilly {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  header {
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: 150px;
+
+    .name {
+      font-weight: bold;
+    }
+  }
+
+  .container {
+    width: 908px;
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

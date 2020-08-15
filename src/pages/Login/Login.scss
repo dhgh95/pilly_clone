@@ -1,0 +1,164 @@
+.Login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafa;
+  font-family: "Noto Sans KR", sans-serif;
+  position: fixed;
+  z-index: 5;
+
+  .background {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .input-wrap {
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 200px;
+
+      input {
+        width: 450px;
+        height: 60px;
+        border: 1px solid #b7b7b7;
+        border-radius: 3px;
+        background-color: #ffffff;
+        margin: 0 auto;
+        font-size: 20px;
+        margin-top: 10px;
+        text-align: left;
+        padding-left: 30px;
+      }
+
+      .login-btn {
+        width: 450px;
+        height: 50px;
+        border-radius: 100px;
+        background-color: #e26d59;
+        border: 1px solid #e26d59;
+        color: white;
+        font-size: 16px;
+        margin-top: 38px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+
+    .pilly-logo {
+      width: 59px;
+      height: 35px;
+      margin-bottom: 80px;
+      cursor: pointer;
+    }
+
+    ::placeholder {
+      color: #b7b7b7;
+    }
+
+    .user-info {
+      margin-bottom: 10px;
+      margin-top: -70px;
+    }
+
+    .below-bar {
+      margin-top: -160px;
+      color: #838383;
+      font-weight: lighter;
+
+      .find-or-signup {
+        margin-left: 130px;
+
+        .find-password {
+          display: inline;
+          margin-right: 15px;
+        }
+
+        .line {
+          display: inline;
+          border-right: 1px solid #838383;
+        }
+
+        .sign-up {
+          display: inline;
+          margin-left: 15px;
+          cursor: pointer;
+        }
+      }
+
+      .kakao-btn {
+        display: block;
+        width: 450px;
+        height: 50px;
+        border-radius: 100px;
+        background-color: #f8cd46;
+        border: 1px solid #f8cd46;
+        font-size: 16px;
+        font-weight: bold;
+        color: #6e6139;
+        margin-top: 60px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+      }
+
+      .sns-btn {
+        position: relative;
+
+        .kakao-logo {
+          width: 50px;
+          object-fit: cover;
+          position: absolute;
+          top: -1px;
+          left: 125px;
+        }
+
+        .facebook-btn {
+          display: block;
+          width: 450px;
+          height: 50px;
+          border-radius: 100px;
+          background-color: #4b6aab;
+          border: 1px solid #4b6aab;
+          font-size: 16px;
+          font-weight: bold;
+          color: #ffffff;
+          margin-bottom: 20px;
+          padding-left: 47px;
+        }
+
+        .facebook-logo {
+          width: 50px;
+          object-fit: cover;
+          position: absolute;
+          top: 67px;
+          left: 120px;
+        }
+
+        .naver-btn {
+          display: block;
+          width: 450px;
+          height: 50px;
+          border-radius: 100px;
+          background-color: #5fc43a;
+          border: 1px solid #5fc43a;
+          font-size: 16px;
+          font-weight: bold;
+          color: #ffffff;
+          padding-left: 10px;
+        }
+        .naver-logo {
+          width: 50px;
+          object-fit: cover;
+          position: absolute;
+          top: 140px;
+          left: 120px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.CheckBox {
+  width: 670px;
+  height: 24px;
+  margin: 25px auto 0;
+  display: flex;
+  cursor: pointer;
+
+  .check-box {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(/images/icon-checkbox-off.png) no-repeat 50% 50%;
+    background-size: 24px;
+    margin-right: 17px;
+
+    &.active {
+      background: url(/images/icon-checkbox-on.png) no-repeat 50% 50%;
+    }
+  }
+
+  .text {
+    color: #333;
+  }
+}

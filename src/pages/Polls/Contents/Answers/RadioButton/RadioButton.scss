@@ -1,0 +1,25 @@
+.RadioButton {
+  width: 670px;
+  height: 24px;
+  margin: 25px auto 0px;
+  display: flex;
+  cursor: pointer;
+
+  .radio-button {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(/images/icons/icon-radio-off.png) no-repeat 50% 50%;
+    background-size: 24px;
+    margin-right: 17px;
+
+    &.active {
+      background: url(/images/icons/icon-radio-on.png) no-repeat 50% 50%;
+      background-size: 24px;
+    }
+  }
+
+  .text {
+    color: #333;
+  }
+}

@@ -1,0 +1,35 @@
+.DeliveryDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Noto Sans KR", sans-serif;
+
+  .delivery-info {
+    font-weight: 600;
+    width: 908px;
+    margin-top: 70px;
+    font-size: 20px;
+  }
+
+  .top-section {
+    width: 908px;
+    margin-top: 22px;
+    border-top: 2px solid #848484;
+    border-bottom: 2px solid #848484;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    .each-line {
+      margin-bottom: 5px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .fifth-line {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

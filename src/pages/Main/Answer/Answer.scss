@@ -1,0 +1,44 @@
+.Answer {
+  height: 100px;
+  padding: 28px 20px;
+  margin-bottom: 15px;
+  background-color: white;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.06);
+
+  .answer-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+    span {
+      width: 380px;
+    }
+
+    .icon-down {
+      width: 15px;
+      height: 15px;
+      background-image: url("https://pilly.kr/images/icons/common/icon-arrow-down.png");
+    }
+  }
+  .answer-in {
+    font-size: 13px;
+    font-weight: lighter;
+    display: none;
+  }
+
+  &.click {
+    height: 203px;
+
+    .icon-down {
+      background-image: url("https://pilly.kr/images/icons/common/icon-arrow-up.png");
+    }
+    .answer-in {
+      font-size: 13px;
+      display: inherit;
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #ddd;
+    }
+  }
+}

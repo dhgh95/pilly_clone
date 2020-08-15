@@ -1,0 +1,102 @@
+.Product {
+  position: relative;
+
+  .detail-view {
+    display: block;
+    width: 452px;
+    height: 395px;
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 60px;
+    position: relative;
+
+    .name-box {
+      height: 130px;
+      margin-top: 10px;
+
+      span {
+        font-size: 14px;
+      }
+
+      .icon {
+        width: 24px;
+        margin-right: 18px;
+      }
+
+      h3 {
+        margin: 0px 0px 20px;
+        font-size: 20px;
+      }
+
+      .picture {
+        width: 132px;
+        position: absolute;
+        top: 15px;
+        right: 10px;
+      }
+    }
+
+    .text-box {
+      display: flex;
+      justify-content: space-between;
+
+      ul {
+        width: 260px;
+        font-size: 13px;
+        padding-left: 15px;
+        margin-top: 5px;
+
+        li {
+          margin-bottom: 7px;
+          list-style: outside;
+        }
+      }
+
+      .number {
+        text-align: right;
+
+        span {
+          font-size: 14px;
+          font-weight: bold;
+        }
+
+        h3 {
+          margin-top: 26px;
+          font-size: 19px;
+        }
+      }
+    }
+
+    .theView {
+      font-size: 14px;
+      font-weight: 700;
+      color: #707070;
+      border-bottom: 1px solid #707070;
+      padding-bottom: 1px;
+      margin-left: 14px;
+    }
+  }
+
+  .cart-btn-box {
+    width: 275px;
+    height: 58px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 32px;
+    left: 85px;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.15);
+
+    &.click {
+      border: 1px solid #ccc;
+      background-color: #dddddd;
+      color: white;
+      box-shadow: none;
+      cursor: default;
+    }
+  }
+}

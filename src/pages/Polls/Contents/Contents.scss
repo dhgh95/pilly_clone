@@ -1,0 +1,33 @@
+.Contents {
+  .btn-box {
+    width: 670px;
+    display: flex;
+    margin: 30px auto 0;
+    padding-bottom: 35px;
+
+    .back-btn {
+      width: 158px;
+      height: 50px;
+      background-color: white;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 50px;
+      margin-right: 80px;
+      border: 1px solid #d7d7d7;
+      cursor: pointer;
+    }
+
+    .next-btn {
+      width: 430px;
+      height: 50px;
+      background-color: #333333;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 50px;
+      cursor: pointer;
+      border: none;
+      outline: none;
+    }
+  }
+}

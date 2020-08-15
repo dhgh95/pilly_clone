@@ -1,0 +1,28 @@
+.Noitems {
+  height: 275px;
+  margin: 170px 0 150px;
+  text-align: center;
+
+  h4 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .to-polls {
+    width: 205px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e26d59;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-top: 60px;
+    box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.15);
+  }
+}
